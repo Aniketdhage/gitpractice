@@ -1,6 +1,7 @@
 import "./App.css";
 import GitComponent from "./GitFolderComp/GitComponent";
 import ReactToastify from "./GitFolderComp/ReactToastify";
+import Test2 from "./GitFolderComp/test2";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <p>Practice Of Git Commands</p>
       <GitComponent />
       <ReactToastify />
+      <Test2 />
     </div>
   );
 }
